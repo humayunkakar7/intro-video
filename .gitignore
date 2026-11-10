@@ -1,0 +1,7 @@
+node_modules/
+frames/
+out/
+
+# Standalone ffmpeg binary (75 MB) used by render.sh, since Remotion's bundled
+# encoder needs macOS 15+. Download a static macOS build into bin/ffmpeg.
+bin/ffmpeg
